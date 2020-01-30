@@ -1,4 +1,4 @@
-# nuxt-frontend
+# mini e-commerce-nuxtfrontend
 
 > Nuxt.js project
 
