@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-frontend",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ridwayne <ridwanyunus20@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc19",
+    "cookieparser": "^0.1.0",
+    "graphql": "^14.5.8",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "strapi-sdk-javascript": "^0.3.3",
+    "uikit": "^3.2.7",
+    "vue-stripe-elements-plus": "^0.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
